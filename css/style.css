@@ -3,12 +3,12 @@ body{
 	font-weight: bold;
 	color:#000000;
 	font-family: "PTSans";
-	line-height: 1.7;
+	line-height: 18px;
 }
 
 h2{
 	font-size: 30px;
-	line-height: 1.4;
+	line-height: 42px;
   padding-top: 60px;
   padding-bottom: 34px;
   padding-left: 130px;
@@ -16,7 +16,7 @@ h2{
 
 h3{
 	font-size: 24px;
-	line-height: 1.4;
+	line-height: 30px;
 }
 
 .clearfix::after{
@@ -54,10 +54,12 @@ h3{
 
 .breadcrumbs p{
   display: inline;
+  line-height: 20px;
 }
 
 .breadcrumbs a{
   margin-right: 40px;
+  line-height: 20px;
 }
 
 .main-content{
@@ -95,6 +97,10 @@ h3{
   padding-right: 110px;
   background-color: green;
   font-size: 0px;
+}
+
+.product-items{
+  line-height: 18px;
 }
 
 .item-preview{
@@ -194,6 +200,7 @@ h3{
 
 .description-of-item p{
   margin-top: 40px;
+  line-height: 24px;
 }
 
 .description-of-item .price-and-purchase{
@@ -202,6 +209,7 @@ h3{
 
 .travel-set-items li{
   list-style: none;
+  line-height: 24px;
 }
 
 .main-footer {
