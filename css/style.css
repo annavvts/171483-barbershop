@@ -89,16 +89,19 @@ h3{
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 0px;
 }
 
 .breadcrumbs li{
   position: relative;
-  display: inline;
+  display: inline-block;
   padding-right: 40px;
+  font-size: 14px;
 }
 
 .breadcrumbs a{
   text-decoration: none;
+  font-size: 14px;
 }
 
 .main-content{
@@ -145,17 +148,27 @@ h3{
 .item-preview{
   display: inline-block;
   vertical-align: top;
-  margin-right: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 20px;
-  width: 240px;
+  width: 220px;
   background-color: white;
   height: 286px;
   font-size: 14px;
+  padding: 0;
 }
 
-.item-preview span{
-  display: block;
 
+.item-preview img{
+  width: 220px;
+}
+
+.item-preview a{
+  display: block;
+}
+
+.preview-item-name{
+  display: block;
 }
 
 .item-name{
@@ -170,7 +183,7 @@ h3{
   margin-bottom: 15px;
 }
 
-.price-and-purchase .price{
+.price{
   float: left;
   width: 110px;
   color: #000000;
@@ -179,7 +192,7 @@ h3{
   padding: 15px 0px;
 }
 
-.price-and-purchase .buy{
+.buy{
   width: 78px;
   color: #ffffff;
   background-color: #000000;
@@ -191,6 +204,7 @@ h3{
 
 .pagination{
   margin-top: 45px;
+  font-size: 0px;
 }
 
 .pagination a{
@@ -209,12 +223,6 @@ h3{
   color: #000000;
   font-size: 14px;
   text-decoration: none;
-}
-
-.main-container-item{
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
 }
 
 .main-content-item{
@@ -237,7 +245,6 @@ h3{
 }
 
 .small-pictures{
-  display: block;
   font-size: 0px;
 }
 
@@ -257,11 +264,11 @@ h3{
   padding-right: 20px;
 }
 
-.description-of-item .in-stock{
+.in-stock{
   float: left;
 }
 
-.description-of-item .vendor-code{
+.vendor-code{
   float: right;
 }
 
