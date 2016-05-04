@@ -245,11 +245,12 @@ h3{
 }
 
 .small-pictures{
+  display: inline-block;
   font-size: 0px;
 }
 
 .small-pictures img{
-  display: inline-block;
+  display: block;
 }
 
 .small-pictures a{
